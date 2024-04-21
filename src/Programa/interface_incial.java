@@ -20,7 +20,7 @@ public class interface_incial {
 			
 			switch(n) {
 			case 1:
-				System.out.println("maconha ");
+				System.out.println("maconha"); //Colocaras cotações e o banco de dados aqui
 				break;
 				
 			case 0:
