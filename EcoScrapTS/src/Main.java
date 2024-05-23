@@ -38,6 +38,7 @@ public class Main {
         System.out.println("Menu:");
         
         if (!usuarioLogado && !ferroVelhoLogado) {
+        	System.out.println("=========================================");
             System.out.println("1. Realizar Cadastro de Usuário");
             System.out.println("2. Realizar Cadastro de Ferro Velho");
             System.out.println("3. Fazer Login Usuario");
@@ -45,6 +46,7 @@ public class Main {
             System.out.println("5. Ver cotacão");
             System.out.println("6. Realizar denuncia");
             System.out.println("7. Sair");
+            System.out.println("=========================================");
         } else if (usuarioLogado && !ferroVelhoLogado) {
             System.out.println("1. Ver cotacao");
             System.out.println("2. Realizar Denúncia");
